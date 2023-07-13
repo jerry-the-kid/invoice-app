@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply dark:bg-[#141625] bg-[#F8F8FB] text-[#000000] dark:text-[#FFFFFF];
+  font-family: 'League Spartan', sans-serif;
+}
+
+.text-1 {
+  @apply font-[600] text-[2.5rem];
+}
+
+.text-3 {
+  @apply font-[600];
+}
+
+.para {
+  @apply text-[#888eb0] font-[300] dark:text-white;
+}
+
+.center-item {
+  @apply flex justify-center items-center;
+}
+
+
+

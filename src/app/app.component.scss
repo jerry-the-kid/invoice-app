@@ -1,0 +1,13 @@
+.main-container {
+  @apply flex min-h-screen;
+}
+
+app-sidebar {
+  @apply bg-[#252945]  rounded-r-2xl overflow-hidden flex flex-col;
+}
+
+.custom-container {
+  width: 80%;
+  max-width: 50rem;
+  @apply mx-auto;
+}
